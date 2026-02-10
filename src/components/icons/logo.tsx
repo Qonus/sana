@@ -1,10 +1,10 @@
 export default function Logo({className}: {className?: string}) {
     return (
-<svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" className={className} preserveAspectRatio="xMidYMid meet" fill="#000000">
+<svg width="800px" height="800px" viewBox="0 0 36 36" aria-hidden="true" role="img" className={className} preserveAspectRatio="xMidYMid meet" fill="#000000">
 
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_bgCarrier" strokeWidth="0"/>
 
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"/>
 
 <g id="SVGRepo_iconCarrier">
 

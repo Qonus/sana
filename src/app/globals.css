@@ -93,7 +93,7 @@ h1 {
   --card-foreground: oklch(0.985 0.002 247.839);
   --popover: oklch(0.21 0.034 264.665);
   --popover-foreground: oklch(0.985 0.002 247.839);
-  --primary: oklch(0.928 0.006 264.531);
+  --primary: oklch(0.696 0.17 162.48);
   --primary-foreground: oklch(0.21 0.034 264.665);
   --secondary: oklch(0.278 0.033 256.848);
   --secondary-foreground: oklch(0.985 0.002 247.839);
@@ -126,5 +126,9 @@ h1 {
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  .container {
+    @apply mx-auto max-w-7xl px-4;
   }
 }
