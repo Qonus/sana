@@ -1,4 +1,5 @@
 import { getSortedPostsData } from "@/lib/posts";
+import Link from "next/link";
 
 export default function PostsPage() {
     const posts = getSortedPostsData();
@@ -8,8 +9,11 @@ export default function PostsPage() {
             <ul>
                 {posts.map((post) => (
                 <li key={post.slug}>
+                    <Link href={`/posts/${post.slug}`}
+                        className="w-full">
                     <h2>{post.slug}</h2>
                     <p>{post.date}</p>
+                    </Link>
                 </li>
                 ))}
             </ul>
